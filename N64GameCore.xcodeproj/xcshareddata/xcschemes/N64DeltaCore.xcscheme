@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF799673224C09A1009B094F"
-               BuildableName = "N64DeltaCore_RSP.framework"
-               BlueprintName = "N64DeltaCore-RSP"
-               ReferencedContainer = "container:N64DeltaCore.xcodeproj">
+               BlueprintIdentifier = "BF799013224BF59E009B094F"
+               BuildableName = "N64GameCore.framework"
+               BlueprintName = "N64GameCore"
+               ReferencedContainer = "container:N64GameCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF799673224C09A1009B094F"
-            BuildableName = "N64DeltaCore_RSP.framework"
-            BlueprintName = "N64DeltaCore-RSP"
-            ReferencedContainer = "container:N64DeltaCore.xcodeproj">
+            BlueprintIdentifier = "BF799013224BF59E009B094F"
+            BuildableName = "N64GameCore.framework"
+            BlueprintName = "N64GameCore"
+            ReferencedContainer = "container:N64GameCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF799673224C09A1009B094F"
-            BuildableName = "N64DeltaCore_RSP.framework"
-            BlueprintName = "N64DeltaCore-RSP"
-            ReferencedContainer = "container:N64DeltaCore.xcodeproj">
+            BlueprintIdentifier = "BF799013224BF59E009B094F"
+            BuildableName = "N64GameCore.framework"
+            BlueprintName = "N64GameCore"
+            ReferencedContainer = "container:N64GameCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

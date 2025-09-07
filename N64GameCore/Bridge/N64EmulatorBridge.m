@@ -33,13 +33,13 @@
 #import <dlfcn.h>
 #import <mach-o/ldsyms.h>
 
-#import <DeltaCore/DeltaCore.h>
-#import <DeltaCore/DeltaCore-Swift.h>
+#import <GameCore/GameCore.h>
+#import <GameCore/GameCore-Swift.h>
 
 #if STATIC_LIBRARY
-#import "N64DeltaCore-Swift.h"
+#import "N64GameCore-Swift.h"
 #else
-#import <N64DeltaCore/N64DeltaCore-Swift.h>
+#import <N64GameCore/N64GameCore-Swift.h>
 #endif
 
 m64p_error CALL Video_PluginStartup(m64p_dynlib_handle CoreLibHandle, void *Context, void (*DebugCallback)(void *, int, const char *));

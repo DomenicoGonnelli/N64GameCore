@@ -443,7 +443,7 @@
 		BF6E4E622261721A00E24788 /* mupen64plus.ini in Resources */ = {isa = PBXBuildFile; fileRef = BF7994F3224BFF6C009B094F /* mupen64plus.ini */; };
 		BF6E4E632261722900E24788 /* GLideN64.ini in Resources */ = {isa = PBXBuildFile; fileRef = BF2EF84D224C1C070032AD78 /* GLideN64.ini */; };
 		BF6E4E642261722C00E24788 /* GLideN64.custom.ini in Resources */ = {isa = PBXBuildFile; fileRef = BF2EF84C224C1C070032AD78 /* GLideN64.custom.ini */; };
-		BF799019224BF59E009B094F /* N64DeltaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF799017224BF59E009B094F /* N64DeltaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF799019224BF59E009B094F /* N64GameCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF799017224BF59E009B094F /* N64GameCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7994A6224BFDCF009B094F /* libMupen64Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF79949A224BFDAA009B094F /* libMupen64Plus.a */; };
 		BF7995F3224BFF6C009B094F /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = BF7994E1224BFF6C009B094F /* md5.c */; };
 		BF7995F5224BFF6C009B094F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = BF7994E6224BFF6C009B094F /* unzip.c */; };
@@ -512,7 +512,7 @@
 		BF799668224C0598009B094F /* SDLStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = BF799664224C0598009B094F /* SDLStubs.m */; };
 		BF799678224C09A1009B094F /* N64DeltaCore_RSP.h in Headers */ = {isa = PBXBuildFile; fileRef = BF799676224C09A1009B094F /* N64DeltaCore_RSP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF9B5980227A52CE0011C8B4 /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */; };
-		BF9B5982227A52D40011C8B4 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5981227A52D40011C8B4 /* Standard.deltaskin */; };
+		BF9B5982227A52D40011C8B4 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5981227A52D40011C8B4 /* Standard.dgskin */; };
 		BFCB0FD722568D330056F983 /* N64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EFCFF224C33830032AD78 /* N64.swift */; };
 		BFFDF04223E3CAC800931B96 /* N64Types.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFDF04023E3CAC800931B96 /* N64Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFDF04B23E3E56000931B96 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = BF799532224BFF6C009B094F /* common.c */; };
@@ -608,7 +608,7 @@
 		BF21773D22556B6E00D74210 /* TxDbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxDbg.h; sourceTree = "<group>"; };
 		BF21773E22556B7000D74210 /* TxDbg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TxDbg.cpp; sourceTree = "<group>"; };
 		BF21774122556B8B00D74210 /* TxDbg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TxDbg.cpp; sourceTree = "<group>"; };
-		BF2EF80D224C1BF60032AD78 /* N64DeltaCore_Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64DeltaCore_Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2EF80D224C1BF60032AD78 /* N64GameCore_Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64GameCore_Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2EF80F224C1BF60032AD78 /* N64DeltaCore_Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64DeltaCore_Video.h; sourceTree = "<group>"; };
 		BF2EF810224C1BF60032AD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF2EF816224C1C070032AD78 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -1125,8 +1125,8 @@
 		BF2EFD04224C370C0032AD78 /* N64EmulatorBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64EmulatorBridge.h; sourceTree = "<group>"; };
 		BF2EFD05224C370C0032AD78 /* N64EmulatorBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N64EmulatorBridge.m; sourceTree = "<group>"; };
 		BF31A1F02267A81000C64A1B /* TxDbg_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TxDbg_ios.mm; sourceTree = "<group>"; };
-		BF799014224BF59E009B094F /* N64DeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64DeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF799017224BF59E009B094F /* N64DeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64DeltaCore.h; sourceTree = "<group>"; };
+		BF799014224BF59E009B094F /* N64GameCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64GameCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF799017224BF59E009B094F /* N64GameCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64GameCore.h; sourceTree = "<group>"; };
 		BF799018224BF59E009B094F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF79949A224BFDAA009B094F /* libMupen64Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMupen64Plus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7994A9224BFF6B009B094F /* install_binary_bundle.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_binary_bundle.sh; sourceTree = "<group>"; };
@@ -1410,11 +1410,11 @@
 		BF799665224C0598009B094F /* SDL_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_thread.h; sourceTree = "<group>"; };
 		BF799666224C0598009B094F /* SDL_opengl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_opengl.h; sourceTree = "<group>"; };
 		BF799667224C0598009B094F /* SDL_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config.h; sourceTree = "<group>"; };
-		BF799674224C09A1009B094F /* N64DeltaCore_RSP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64DeltaCore_RSP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF799674224C09A1009B094F /* N64GameCore_RSP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64GameCore_RSP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF799676224C09A1009B094F /* N64DeltaCore_RSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64DeltaCore_RSP.h; sourceTree = "<group>"; };
 		BF799677224C09A1009B094F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
-		BF9B5981227A52D40011C8B4 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
+		BF9B5981227A52D40011C8B4 /* Standard.dgskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.dgskin; path = "Controller Skin/Standard.dgskin"; sourceTree = "<group>"; };
 		BFFDF04023E3CAC800931B96 /* N64Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64Types.h; sourceTree = "<group>"; };
 		D5B44BED2E29A70700EA8B6C /* DeltaCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DeltaCore.xcodeproj; path = ../DeltaCore/DeltaCore.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D5F113462E2AED6B00B73EC1 /* fp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fp.h; sourceTree = "<group>"; };
@@ -2475,7 +2475,7 @@
 			children = (
 				BF7994A5224BFDCF009B094F /* Frameworks */,
 				BF79949B224BFDAA009B094F /* libMupen64Plus */,
-				BF799016224BF59E009B094F /* N64DeltaCore */,
+				BF799016224BF59E009B094F /* N64GameCore */,
 				BF799675224C09A1009B094F /* N64DeltaCore-RSP */,
 				BF2EF80E224C1BF60032AD78 /* N64DeltaCore-Video */,
 				D5B44BE02E29A6EE00EA8B6C /* Dependencies */,
@@ -2486,24 +2486,24 @@
 		BF799015224BF59E009B094F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF799014224BF59E009B094F /* N64DeltaCore.framework */,
+				BF799014224BF59E009B094F /* N64GameCore.framework */,
 				BF79949A224BFDAA009B094F /* libMupen64Plus.a */,
-				BF799674224C09A1009B094F /* N64DeltaCore_RSP.framework */,
-				BF2EF80D224C1BF60032AD78 /* N64DeltaCore_Video.framework */,
+				BF799674224C09A1009B094F /* N64GameCore_RSP.framework */,
+				BF2EF80D224C1BF60032AD78 /* N64GameCore_Video.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF799016224BF59E009B094F /* N64DeltaCore */ = {
+		BF799016224BF59E009B094F /* N64GameCore */ = {
 			isa = PBXGroup;
 			children = (
-				BF799017224BF59E009B094F /* N64DeltaCore.h */,
+				BF799017224BF59E009B094F /* N64GameCore.h */,
 				BF2EFCFF224C33830032AD78 /* N64.swift */,
 				BF2EFD03224C36F00032AD78 /* Bridge */,
 				BFFDF04423E3CB3300931B96 /* Types */,
 				BF9B597E227A529C0011C8B4 /* Supporting Files */,
 			);
-			path = N64DeltaCore;
+			path = N64GameCore;
 			sourceTree = "<group>";
 		};
 		BF79949B224BFDAA009B094F /* libMupen64Plus */ = {
@@ -3235,7 +3235,7 @@
 			isa = PBXGroup;
 			children = (
 				BF799018224BF59E009B094F /* Info.plist */,
-				BF9B5981227A52D40011C8B4 /* Standard.deltaskin */,
+				BF9B5981227A52D40011C8B4 /* Standard.dgskin */,
 				BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -3539,7 +3539,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF799019224BF59E009B094F /* N64DeltaCore.h in Headers */,
+				BF799019224BF59E009B094F /* N64GameCore.h in Headers */,
 				BF2EFD0C224C39AD0032AD78 /* N64EmulatorBridge.h in Headers */,
 				BFFDF04223E3CAC800931B96 /* N64Types.h in Headers */,
 			);
@@ -3566,9 +3566,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BF2EF80C224C1BF60032AD78 /* N64DeltaCore-Video */ = {
+		BF2EF80C224C1BF60032AD78 /* N64GameCore-Video */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF2EF814224C1BF60032AD78 /* Build configuration list for PBXNativeTarget "N64DeltaCore-Video" */;
+			buildConfigurationList = BF2EF814224C1BF60032AD78 /* Build configuration list for PBXNativeTarget "N64GameCore-Video" */;
 			buildPhases = (
 				BF2EFC4D224C26240032AD78 /* ShellScript */,
 				BF2EF808224C1BF60032AD78 /* Headers */,
@@ -3580,14 +3580,14 @@
 			);
 			dependencies = (
 			);
-			name = "N64DeltaCore-Video";
+			name = "N64GameCore-Video";
 			productName = "N64DeltaCore-Video";
-			productReference = BF2EF80D224C1BF60032AD78 /* N64DeltaCore_Video.framework */;
+			productReference = BF2EF80D224C1BF60032AD78 /* N64GameCore_Video.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF799013224BF59E009B094F /* N64DeltaCore */ = {
+		BF799013224BF59E009B094F /* N64GameCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF79901C224BF59E009B094F /* Build configuration list for PBXNativeTarget "N64DeltaCore" */;
+			buildConfigurationList = BF79901C224BF59E009B094F /* Build configuration list for PBXNativeTarget "N64GameCore" */;
 			buildPhases = (
 				BF79900F224BF59E009B094F /* Headers */,
 				BF799010224BF59E009B094F /* Sources */,
@@ -3602,9 +3602,9 @@
 				BF7996C9224C0A43009B094F /* PBXTargetDependency */,
 				BF7994A4224BFDB1009B094F /* PBXTargetDependency */,
 			);
-			name = N64DeltaCore;
+			name = N64GameCore;
 			productName = N64DeltaCore;
-			productReference = BF799014224BF59E009B094F /* N64DeltaCore.framework */;
+			productReference = BF799014224BF59E009B094F /* N64GameCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF799499224BFDAA009B094F /* libMupen64Plus */ = {
@@ -3624,9 +3624,9 @@
 			productReference = BF79949A224BFDAA009B094F /* libMupen64Plus.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BF799673224C09A1009B094F /* N64DeltaCore-RSP */ = {
+		BF799673224C09A1009B094F /* N64GameCore-RSP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF79967B224C09A1009B094F /* Build configuration list for PBXNativeTarget "N64DeltaCore-RSP" */;
+			buildConfigurationList = BF79967B224C09A1009B094F /* Build configuration list for PBXNativeTarget "N64GameCore-RSP" */;
 			buildPhases = (
 				BF79966F224C09A1009B094F /* Headers */,
 				BF799670224C09A1009B094F /* Sources */,
@@ -3637,9 +3637,9 @@
 			);
 			dependencies = (
 			);
-			name = "N64DeltaCore-RSP";
+			name = "N64GameCore-RSP";
 			productName = "N64DeltaCore-RSP";
-			productReference = BF799674224C09A1009B094F /* N64DeltaCore_RSP.framework */;
+			productReference = BF799674224C09A1009B094F /* N64GameCore_RSP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -3667,7 +3667,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF79900E224BF59E009B094F /* Build configuration list for PBXProject "N64DeltaCore" */;
+			buildConfigurationList = BF79900E224BF59E009B094F /* Build configuration list for PBXProject "N64GameCore" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -3685,10 +3685,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				BF799013224BF59E009B094F /* N64DeltaCore */,
+				BF799013224BF59E009B094F /* N64GameCore */,
 				BF799499224BFDAA009B094F /* libMupen64Plus */,
-				BF799673224C09A1009B094F /* N64DeltaCore-RSP */,
-				BF2EF80C224C1BF60032AD78 /* N64DeltaCore-Video */,
+				BF799673224C09A1009B094F /* N64GameCore-RSP */,
+				BF2EF80C224C1BF60032AD78 /* N64GameCore-Video */,
 			);
 		};
 /* End PBXProject section */
@@ -3718,7 +3718,7 @@
 				BF6E4E622261721A00E24788 /* mupen64plus.ini in Resources */,
 				BF6E4E632261722900E24788 /* GLideN64.ini in Resources */,
 				BF9B5980227A52CE0011C8B4 /* Standard.deltamapping in Resources */,
-				BF9B5982227A52D40011C8B4 /* Standard.deltaskin in Resources */,
+				BF9B5982227A52D40011C8B4 /* Standard.dgskin in Resources */,
 				BF6E4E642261722C00E24788 /* GLideN64.custom.ini in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4016,7 +4016,7 @@
 /* Begin PBXTargetDependency section */
 		BF2EFCFB224C32140032AD78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF2EF80C224C1BF60032AD78 /* N64DeltaCore-Video */;
+			target = BF2EF80C224C1BF60032AD78 /* N64GameCore-Video */;
 			targetProxy = BF2EFCFA224C32140032AD78 /* PBXContainerItemProxy */;
 		};
 		BF7994A4224BFDB1009B094F /* PBXTargetDependency */ = {
@@ -4026,7 +4026,7 @@
 		};
 		BF7996C9224C0A43009B094F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF799673224C09A1009B094F /* N64DeltaCore-RSP */;
+			target = BF799673224C09A1009B094F /* N64GameCore-RSP */;
 			targetProxy = BF7996C8224C0A43009B094F /* PBXContainerItemProxy */;
 		};
 		D5B44BFF2E29A76500EA8B6C /* PBXTargetDependency */ = {
@@ -4292,7 +4292,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6XVY5G3U44;
+				DEVELOPMENT_TEAM = S797C2F3U5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4308,7 +4308,7 @@
 					"\"$(SRCROOT)/Mupen64Plus/mupen64plus-core/src/api\"",
 					"\"$(SRCROOT)/Mupen64Plus/GLideN64/src\"",
 				);
-				INFOPLIST_FILE = N64DeltaCore/Info.plist;
+				INFOPLIST_FILE = N64GameCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4323,7 +4323,7 @@
 					"-D__unix__",
 					"-ffast-math",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.N64DeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domenico.gonnelli.core.n64;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -4344,7 +4344,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6XVY5G3U44;
+				DEVELOPMENT_TEAM = S797C2F3U5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4356,7 +4356,7 @@
 					"\"$(SRCROOT)/Mupen64Plus/mupen64plus-core/src/api\"",
 					"\"$(SRCROOT)/Mupen64Plus/GLideN64/src\"",
 				);
-				INFOPLIST_FILE = N64DeltaCore/Info.plist;
+				INFOPLIST_FILE = N64GameCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4371,7 +4371,7 @@
 					"-D__unix__",
 					"-ffast-math",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.N64DeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domenico.gonnelli.core.n64;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -4503,7 +4503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF2EF814224C1BF60032AD78 /* Build configuration list for PBXNativeTarget "N64DeltaCore-Video" */ = {
+		BF2EF814224C1BF60032AD78 /* Build configuration list for PBXNativeTarget "N64GameCore-Video" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF2EF812224C1BF60032AD78 /* Debug */,
@@ -4512,7 +4512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF79900E224BF59E009B094F /* Build configuration list for PBXProject "N64DeltaCore" */ = {
+		BF79900E224BF59E009B094F /* Build configuration list for PBXProject "N64GameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF79901A224BF59E009B094F /* Debug */,
@@ -4521,7 +4521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF79901C224BF59E009B094F /* Build configuration list for PBXNativeTarget "N64DeltaCore" */ = {
+		BF79901C224BF59E009B094F /* Build configuration list for PBXNativeTarget "N64GameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF79901D224BF59E009B094F /* Debug */,
@@ -4539,7 +4539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF79967B224C09A1009B094F /* Build configuration list for PBXNativeTarget "N64DeltaCore-RSP" */ = {
+		BF79967B224C09A1009B094F /* Build configuration list for PBXNativeTarget "N64GameCore-RSP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF799679224C09A1009B094F /* Debug */,
