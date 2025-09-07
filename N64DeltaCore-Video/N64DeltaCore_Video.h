@@ -2,7 +2,7 @@
 //  N64DeltaCore_Video.h
 //  N64DeltaCore-Video
 //
-//  Created by Riley Testut on 3/27/19.
+//  Created by Darlion on 3/27/19.
 //  Copyright © 2019 Riley Testut. All rights reserved.
 //
 

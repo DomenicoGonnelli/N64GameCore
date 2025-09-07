@@ -2,7 +2,7 @@
 //  N64DeltaCore_RSP.h
 //  N64DeltaCore-RSP
 //
-//  Created by Riley Testut on 3/27/19.
+//  Created by Darlion on 3/27/19.
 //  Copyright © 2019 Riley Testut. All rights reserved.
 //
 
