@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.xcconfig = {
     "HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/subprojects/**" "$(PODS_ROOT)/Headers/Private/N64GameCore/libMupen64Plus/SDL"',
     
-    "USER_HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}/DeltaCore/Swift Compatibility Header" "${PODS_ROOT}/Headers/Public/DeltaCore" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/src" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/src/api" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/src/osd" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/GLideN64/src"',
+    "USER_HEADER_SEARCH_PATHS" => '"${PODS_CONFIGURATION_BUILD_DIR}/GameCore/Swift Compatibility Header" "${PODS_ROOT}/Headers/Public/GameCore" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/src" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/src/api" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/mupen64plus-core/src/osd" "$(PODS_ROOT)/Headers/Private/N64GameCore/Mupen64Plus/GLideN64/src"',
     
     "CLANG_ENABLE_MODULES" => "NO",
     "GCC_PREPROCESSOR_DEFINITIONS" => "STATIC_LIBRARY=1"
