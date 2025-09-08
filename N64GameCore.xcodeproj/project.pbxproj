@@ -511,7 +511,7 @@
 		BF79965D224BFF6C009B094F /* sdl_key_converter.c in Sources */ = {isa = PBXBuildFile; fileRef = BF7995EC224BFF6C009B094F /* sdl_key_converter.c */; };
 		BF799668224C0598009B094F /* SDLStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = BF799664224C0598009B094F /* SDLStubs.m */; };
 		BF799678224C09A1009B094F /* N64DeltaCore_RSP.h in Headers */ = {isa = PBXBuildFile; fileRef = BF799676224C09A1009B094F /* N64DeltaCore_RSP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF9B5980227A52CE0011C8B4 /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */; };
+		BF9B5980227A52CE0011C8B4 /* Standard.dgmapping in Resources */ = {isa = PBXBuildFile; fileRef = BF9B597F227A52CD0011C8B4 /* Standard.dgmapping */; };
 		BF9B5982227A52D40011C8B4 /* Standard.dgskin in Resources */ = {isa = PBXBuildFile; fileRef = BF9B5981227A52D40011C8B4 /* Standard.dgskin */; };
 		BFCB0FD722568D330056F983 /* N64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EFCFF224C33830032AD78 /* N64.swift */; };
 		BFFDF04223E3CAC800931B96 /* N64Types.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFDF04023E3CAC800931B96 /* N64Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1413,7 +1413,7 @@
 		BF799674224C09A1009B094F /* N64GameCore_RSP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = N64GameCore_RSP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF799676224C09A1009B094F /* N64DeltaCore_RSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64DeltaCore_RSP.h; sourceTree = "<group>"; };
 		BF799677224C09A1009B094F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
+		BF9B597F227A52CD0011C8B4 /* Standard.dgmapping */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Standard.dgmapping; sourceTree = "<group>"; };
 		BF9B5981227A52D40011C8B4 /* Standard.dgskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.dgskin; path = "Controller Skin/Standard.dgskin"; sourceTree = "<group>"; };
 		BFFDF04023E3CAC800931B96 /* N64Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64Types.h; sourceTree = "<group>"; };
 		D5B44BED2E29A70700EA8B6C /* DeltaCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DeltaCore.xcodeproj; path = ../DeltaCore/DeltaCore.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -3236,7 +3236,7 @@
 			children = (
 				BF799018224BF59E009B094F /* Info.plist */,
 				BF9B5981227A52D40011C8B4 /* Standard.dgskin */,
-				BF9B597F227A52CD0011C8B4 /* Standard.deltamapping */,
+				BF9B597F227A52CD0011C8B4 /* Standard.dgmapping */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -3717,7 +3717,7 @@
 			files = (
 				BF6E4E622261721A00E24788 /* mupen64plus.ini in Resources */,
 				BF6E4E632261722900E24788 /* GLideN64.ini in Resources */,
-				BF9B5980227A52CE0011C8B4 /* Standard.deltamapping in Resources */,
+				BF9B5980227A52CE0011C8B4 /* Standard.dgmapping in Resources */,
 				BF9B5982227A52D40011C8B4 /* Standard.dgskin in Resources */,
 				BF6E4E642261722C00E24788 /* GLideN64.custom.ini in Resources */,
 			);
