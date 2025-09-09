@@ -76,6 +76,9 @@ public struct N64: DeltaCoreProtocol
     private init()
     {
     }
+    
+    public var skinName: String { "Standard" }
+    public var mappingName: String { "Standard" }
 }
 
 // Expose DeltaCore properties to Objective-C.
